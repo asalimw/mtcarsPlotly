@@ -17,9 +17,9 @@ library(plotly)
 
 Created Date: 28 July 2020
 
-This is a 5 web page presentation using R Markdown that features a plot created with Plotly on mtcars data. It contains interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
+This is a 5 web page presentation using R Markdown that features a plot on mtcars data created with Plotly. It contains an interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
 
-In the interactive plot:
+In the interactive plot on page 4:
 
 - You can view the car info by hovering over the point.
 - You can click on the legend to show/hide the data
@@ -73,4 +73,4 @@ figPlot
 
 To view my code please go to this website: https://github.com/asalimw/mtcarsPlotly
 
-**Today is `r format(Sys.time(), '%d %B, %Y')`**
+Today is **`r format(Sys.time(), '%d %B, %Y')`** and have a good day.
