@@ -17,7 +17,7 @@ library(plotly)
 
 **Created Date: 28 July 2020**
 
-This is a 5 web page presentation using R Markdown that features a plot on mtcars data created with Plotly. It contains an interactive tables where you can move the columns around and an interactive plot with fitted loess line (mpg~disp).
+This is a 5 web page presentation using R Markdown that features a plot on mtcars data created with Plotly. It contains an interactive table (page 3) where you can move the columns around and an interactive plot with fitted loess line (mpg~disp).
 
 In the interactive plot on page 4:
 
