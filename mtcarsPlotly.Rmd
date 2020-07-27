@@ -1,5 +1,5 @@
 ---
-title: "mtcars Plotly"
+title: "Motor Trend Car Road Tests - Plotly"
 author: "Willianto Asalim"
 date: "28/07/2020"
 output: ioslides_presentation
@@ -9,9 +9,15 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## mtcars Plotly Information
+```{r loadLibrary, warning=FALSE, message=FALSE}
+library(plotly)
+```
 
-This is a 5 web page presentation using R Markdown that features a plot created with Plotly. It contains interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
+## Information
+
+Created Date: 28 July 2020
+
+This is a 5 web page presentation using R Markdown that features a plot created with Plotly on mtcars data. It contains interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
 
 In the interactive plot:
 
@@ -19,12 +25,12 @@ In the interactive plot:
 - You can click on the legend to show/hide the data
 - You can zoom into the data by using your mouse and highlight the selected area (double click to zoom out).
 
+mtcars info: https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html
+
 
 ## Interactive mtcars data table
 
 ```{r carsTable, warning=FALSE, message=FALSE}
-library(plotly)
-
 fig <- plot_ly(
   type = 'table',
   header = list(
@@ -65,4 +71,6 @@ figPlot
 
 ## Thank you!
 
-To view the code plese go to this website: https://github.com/asalimw/mtcarsPlotly
+To view my code please go to this website: https://github.com/asalimw/mtcarsPlotly
+
+**Today is `r format(Sys.time(), '%d %B, %Y')`**
