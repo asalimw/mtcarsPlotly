@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## mtcars Plotly Information
 
-This is a 4 web page presentation using R Markdown that features a plot created with Plotly. It contains interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
+This is a 5 web page presentation using R Markdown that features a plot created with Plotly. It contains interactive tables where you can move the columns around and an interactive plot of mtcars data with fitted loess line (mpg~disp).
 
 In the interactive plot:
 
@@ -63,3 +63,6 @@ figPlot <- figPlot %>% layout(xaxis = list(title = 'Displacement (cu.in.)'),
 figPlot
 ```
 
+## Thank you!
+
+To view the code plese go to this website: https://github.com/asalimw/mtcarsPlotly
