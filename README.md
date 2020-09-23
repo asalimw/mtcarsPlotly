@@ -3,6 +3,8 @@ A web page presentation using R Markdown that features an interactive mtcars plo
 
 This is a 5 web page presentation using R Markdown that features a plot on mtcars data created with Plotly. It contains an interactive table (page 3) where you can move the columns around and an interactive plot with fitted loess line (mpg~disp).
 
+Slide Presentation info: https://rpubs.com/asalimw/mtcarsPlotly2
+
 In the interactive plot on page 4:
 
 - You can view the car info by hovering over the point.
